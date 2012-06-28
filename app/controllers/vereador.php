@@ -2,13 +2,13 @@
 
 class vereador extends appController
 {
-    public function visualizar() {
-        
-        
-        $this->template('default.php');
-        $this->view('vereador/index.php');
-        //echo "oi";
+
+    public function visualizar($params)
+    {   
+        $render = array('teste' => 'teste');
+        $this->template('default.php', $this->view('vereador/index.php', $render));
     }
+
 }
 
 ?>

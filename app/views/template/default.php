@@ -1,3 +1,106 @@
-DEFAULT<br /><br /><br />
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Conheça seu vereador - Acompanhe dia-a-dia do seu vereador</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-<?php echo $this->viewInternal; ?>
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Le styles -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="/css/personal.css" rel="stylesheet">
+        <link href="/css/style.css" rel="stylesheet">
+    </head>
+
+    <body data-spy="scroll" data-target=".subnav" data-offset="50">
+        <!-- Navbar
+          ================================================== -->
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="../">Jonny Data</a>
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a href="#home"><i class="icon-home"></i> Home</a></li>
+                            <li><a href="#sobre"><i class="icon-fire"></i> Sobre</a></li>
+                            <li><a href="#contribua"><i class="icon-random"></i> Como contribuir</a></li>
+                            <li><a href="#indique" class="gold"><i class="icon-inbox"></i> Indique a um amigo</a></li>
+                            <li><a href="#faleconosco"><i class="icon-envelope"></i> Fale Conosco</a></li>
+
+                            <li class="divider-vertical"></li>
+                            <li class="divider-vertical"></li>
+                            <li class="divider-vertical"></li>
+                            <li class="divider-vertical"></li>
+                            <li class="divider-vertical"></li>
+                            <li class="divider-vertical"></li>
+                            <li class="divider-vertical"></li>
+                            <li class="divider-vertical"></li>
+                            <li class="no-underline">
+                                <a href="#About">Registre-se usando Facebook &nbsp 
+                                    <img src="http://cdn1.iconfinder.com/data/icons/socialnetworking/16/facebook.png" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!-- Masthead
+                        ================================================== -->
+            <header class="jumbotron subhead" id="overview">
+                <h1>Conheça seu vereador</h1>
+                <p class="lead">Acompanhe as atividades do seu vereador dia-a-dia.</p>
+
+
+                <div class="subnav">
+                    <ul class="nav nav-pills">
+                        <li>
+                            <form class="form-search">
+                                <input type="text" class="input-xlarge search-query" name="search" placeholder="Digite nome ou termo">
+                                <button type="submit" class="btn">Pesquisar</button>
+                            </form>
+
+                        </li>
+                        <li><a href="#typography"><i class="icon-user"></i> Minha conta</a></li>
+                        <li><a href="#navbar"><i class="icon-eye-open"></i> Meus vereadores</a></li>
+                        <li><a href="#buttons"><i class="icon-wrench"></i> Configurações</a></li>
+
+                    </ul>
+                </div>
+            </header>
+
+
+            <?php echo $this->viewInternal; ?>
+        </div>
+
+        <!-- Footer
+            ================================================== -->
+        <footer class="footer">
+            <h2>Conheça seu vereador</h2>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+        </footer>
+        <!-- JS PAGE !-->
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap-collaps.js"></script>
+        <script src="js/bootstrap-dropdown.js"></script>
+        <script src="js/bootstrap-scrollspy.js"></script>
+        <script src="js/bootstrap-tooltip.js"></script>
+        <script src="js/boot.js"></script>
+    </body>
+</html>
